@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Bootstrap 5.0 CSS-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Phase 1 Blog</title>
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+  <div class="container mt-5">
+    <h2>Phase 1 Javascript Blog December 2021</h2>
+    <p>It took reviewing multiple sources of information to understand how promises work. Once I understood how to work with the .then method, the rest was relatively easy.</p>
+    <p>One of the hurdles was realising the response from the api is passed in as an argument in to the subsequent .then as an object. It took some persistence and research to understand that the subsequent .thens (chaining) were receiving the value from the previous .then and this could be assigned to a parameter of any name.</p>
+    <p>Another hurdle I faced was creating a function within a .then method so that it could be accessed outside of the .then function in order to render results in to the index.html.</p>
+    <p>I also found it useful to understand how promises are structured to return certain values upon being fulfilled or rejected. As I was not required to create my own promises, my understanding of this is superficial but enough to work with returned promises when using the fetch method.</p>
+    <p>At some point, I would like to attempt replacing my use of .then to using async-await for a cleaner looking code. I also feel that async-await made it a bit easier to understand how the returned data was being used in subsequent steps as variables were defined in a more obvious way.</p>
+    <p>As the project did not incorporate concepts such as super, getter and setter, I feel this is an area I will need to revise however my initial thoughts are that this will be no more difficult than concepts such as DOM Manipulation, array methods, event listening and targeting properties inside objects, which I found were relatively straightforward to grasp.</p>
+    <p>Time constraints threw up certain challenges as well as solutions:
+      <ul>
+        <li>Firstly, I'm glad I discovered Bootstrap 5.0 as I was not particularly looking forward to having to spend time deciding and then coding styling. It is not that I don’t enjoy the styling but as a timesaver, Bootstrap helped me to focus on the JavaScript part of the project. Bootstrap also enabled me to easily create a modal for one of my buttons as well as toggle color schemes.</li>
+        <li>Secondly, the initial API I wanted to use threw a CORS policy error and while I researched this, I did not have time to fully understand how to resolve this. This was disappointing as I feel I could have been more creative with my first choice of API. Looking back, I can see a value in my Bootstrap 5 html link and I will be interested to look in to this further so as to expand my choices of APIs. I also felt restricted creatively as my choice of APIs was limited to those not requiring an auth key. Again, I’m sure with further research, the required knowledge can be obtained to work with these types of APIs. </li>
+        <li>Lastly, I was more focused on creating the requirements for the project rather than indulging in creativity. Once of the reason I decided to pursue this course of study was for the creative aspect and this will be interesting to see how balancing the meeting of requirements versus creativity evolves as well as how this is handled in different employment settings (e.g. website design vs website functionality).</li>
+      </ul>
+    </p>
+    <p>Overall, while I really enjoyed learning Java Script, some concepts were challenging to grasp however I feel that I have a good foundation to go back and revise the more challenging concepts. I think that if I can find some more time to dedicate to revision, I can gain more confidence and abilities in my use of this language.</p>
+  </div>
+</body>
+</html>
